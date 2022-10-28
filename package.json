@@ -1,0 +1,35 @@
+{
+  "name": "selenium-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "start:dev": "nodemon",
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrynaShvets/selenium-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrynaShvets/selenium-test/issues"
+  },
+  "homepage": "https://github.com/IrynaShvets/selenium-test#readme",
+  "dependencies": {
+    "@types/selenium-webdriver": "^4.1.6",
+    "chromedriver": "^107.0.1",
+    "selenium-webdriver": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.7",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.8.4"
+  }
+}
